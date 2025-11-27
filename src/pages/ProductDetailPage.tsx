@@ -37,7 +37,7 @@ const ProductDetailPage = () => {
           <div>
             <h1 className="text-lg font-semibold text-slate-900">Product Detail</h1>
             <p className="text-xs text-slate-400">
-              Home {'>'} Fitness &amp; Sports {'>'} Cardio &amp; Strengthening {'>'} Treadmills
+              Home {'/'} {product.title}
             </p>
           </div>
         </div>
